@@ -164,7 +164,7 @@ const Navbar = () => {
     <header className="bg-green-600 text-white py-3 fixed px-4 top-0 left-0 right-0 z-10">
       <div className="container mx-auto flex justify-between items-center h-full">
         <div>
-          <a href="#" className="flex flex-row hover:text-green-100">
+          <a href="#home" className="flex flex-row hover:text-green-100">
             <span className="p-1 text-2xl"><FaGlobeAfrica /></span>
             <h1 className="text-xl font-bold">
               NGO 265

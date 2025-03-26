@@ -13,7 +13,7 @@ import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
-    <div className="h-auto ">
+    <div id="home" className="h-auto ">
       <div className="w-full bg-[url('./assets/bg.jpg')] bg-cover bg-center">
         <div class="bg-white bg-opacity-15 w-full flex md:flex-row md:justify-around flex-col py-14 px-10">
           <div className="md:w-1/2">
