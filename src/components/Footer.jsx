@@ -17,12 +17,13 @@ function Footer() {
     </div>
     
     
-    <div class="flex space-x-6 text-sm">
+    <div class="max-w-full overflow-hidden flex flex-row space-x-3 text-sm">
       <a href="#" class="hover:text-white">Home</a>
       <a href="#" class="hover:text-white">About</a>
       <a href="#" class="hover:text-white">Projects</a>
       <a href="#" class="hover:text-white">Team</a>
       <a href="#" class="hover:text-white">Contact</a>
+      <a href="#" class="hover:text-white">News</a>
       <a href="#" class="hover:text-white">Donate</a>
     </div>
     

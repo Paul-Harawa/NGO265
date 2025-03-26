@@ -139,6 +139,24 @@ const Navbar = () => {
         </motion.a>
       </li>
 
+      <li>
+        <motion.a
+          href="#purchase"
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.9 }}
+          onClick={(e) => {
+            e.preventDefault();
+            handleCloseMenu();
+            handleScrollTo("purchase");
+          }}
+          className={` hover:text-green-200 text-white ${
+            activeSection === "purchase" ? "isActive" : ""
+          }`}
+        >
+          News and Stories
+        </motion.a>
+      </li>
+
     </ul>
   );
 

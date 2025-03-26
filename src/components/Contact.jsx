@@ -2,11 +2,14 @@ import React from "react";
 
 function Contact() {
   return (
-    <div class="max-w-6xl mx-auto p-6">
-      <h2 class="text-2xl font-bold text-gray-800 mb-6 text-center">
-        Contact Us
-      </h2>
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+    <div class="max-w-6xl mx-auto pt-8 pb-12">
+     
+      <div className='flex flex-col text-center py-12 '>
+                <h1 className='font-bold text-2xl '>Get In Touch</h1>
+                <span >______________</span>
+            </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 p-2">
         <div class="bg-gray-100 rounded-lg shadow-lg p-6">
           <form action="#" method="POST">
             <div class="mb-4">
