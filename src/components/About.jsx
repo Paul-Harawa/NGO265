@@ -24,14 +24,14 @@ function About() {
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore ex placeat aut distinctio, ullam quos sint praesentium, voluptate eaque, temporibus expedita dicta mollitia. Laborum nihil quaerat numquam beatae, ratione fugiat?
                 </p>
 
-                <div className='w-full flex flex-row py-5 space-x-1'>
+                <div className='w-full flex flex-row py-5 space-x-1 justify-center'>
                     
-                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row'>Projects <span className='text-lg p-1'>
+                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row text-sm'>Projects <span className='text-sm p-1'>
                     <FaRegFolderOpen  /> </span></a>
 
-                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row'>Team <span className='text-lg p-1'><RiTeamLine /></span></a>
+                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row text-sm'>Team <span className='text-sm p-1'><RiTeamLine /></span></a>
                     
-                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row'>Contact <span className='text-lg p-1'>
+                    <a href="#" className='bg-green-600 text-white px-5 py-3 rounded-lg hover:bg-green-700 cursor-pointer flex flex-row text-sm'>Contact <span className='text-sm p-1'>
                     <FiPhoneCall /></span></a>
                     
 

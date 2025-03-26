@@ -67,7 +67,7 @@ const Hero = () => {
                     href="#contact"
                     className="flex flex-row text-white bg-green-600 hover:bg-green-600/90 px-5 py-2 rounded-full w-full justify-center"
                   >
-                    Contribute To The Cause{" "}
+                    Contribute {" "}
                     <span className="text-xl px-2">
                       <BiSolidDonateHeart />
                     </span>
