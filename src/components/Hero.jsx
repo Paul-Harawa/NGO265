@@ -9,12 +9,13 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { SlSocialYoutube } from "react-icons/sl";
 import { SlSocialTwitter } from "react-icons/sl";
 import { SlSocialFacebook } from "react-icons/sl";
+import { FaWhatsapp } from "react-icons/fa";
 
 const Hero = () => {
   return (
     <div className="h-auto ">
       <div className="w-full bg-[url('./assets/bg.jpg')] bg-cover bg-center">
-        <div class="bg-white bg-opacity-15 w-full flex md:flex-row md:justify-around flex-col py-12 px-10">
+        <div class="bg-white bg-opacity-15 w-full flex md:flex-row md:justify-around flex-col py-14 px-10">
           <div className="md:w-1/2">
             <img
               src={heroImage}
@@ -23,7 +24,7 @@ const Hero = () => {
             />
           </div>
 
-          <div className="md:py-8 md:my-14 my-10 py-8 md:w-1/3 bg-white border border-gray-300 shadow-2xl shadow-green-800 rounded-3xl">
+          <div className="md:py-8 md:my-14 my-10 py-8 md:w-1/3 bg-white border border-gray-300 shadow-2xl shadow-gray-800 rounded-3xl">
             <div className="px-5 text-center">
               <div className="text-2xl font-bold flex flex-row space-x-2">
                 <span className="text-3xl text-green-600">
@@ -44,7 +45,7 @@ const Hero = () => {
                   <br />
                   <div className="flex flex-row space-x-2">
                     <FaRegArrowAltCircleRight className="text-green-600 my-1" />{" "}
-                    <span className="">Child Health</span>
+                    <span className="">Child Development</span>
                   </div>
                   <br />
                   <div className="flex flex-row space-x-2">
@@ -84,6 +85,8 @@ const Hero = () => {
           <SlSocialLinkedin className="bg-green-600 text-white border rounded-2xl p-3 hover:bg-green-500 cursor-pointer" />
           <SlSocialFacebook className="bg-green-600 text-white border rounded-2xl p-3 hover:bg-green-500 cursor-pointer" />
           <SlSocialTwitter className="bg-green-600 text-white border rounded-2xl p-3 hover:bg-green-500 cursor-pointer" />
+
+          <FaWhatsapp className="bg-green-600 text-white border rounded-2xl p-3 hover:bg-green-500 cursor-pointer" />
           
         </div>
       </div>

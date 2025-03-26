@@ -1,13 +1,14 @@
 import React from 'react'
 import aboutImage from "../assets/about.jpg";
+import about2Image from "../assets/about2.jpg";
 import { FaRegFolderOpen } from "react-icons/fa";
 import { RiTeamLine } from "react-icons/ri";
 import { FiPhoneCall } from "react-icons/fi";
 
 function About() {
   return (
-    <div className='h-screen bg-gray-100'>
-        <div className='flex flex-col text-center pt-12'>
+    <div className='h-auto bg-gray-100'>
+        <div className='flex flex-col text-center py-12'>
 
             <div className='flex flex-col'>
                 <h1 className='font-bold text-2xl '>Who We Are</h1>
