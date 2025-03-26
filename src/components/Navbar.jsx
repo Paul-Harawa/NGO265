@@ -7,7 +7,7 @@ import { IoMdCloseCircleOutline } from "react-icons/io";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = React.useState(false);
-  const [activeSection, setActiveSection] = React.useState("home");
+  const [activeSection, setActiveSection] = React.useState(" ");
   const handleToggle = () => {
     setIsOpen(!isOpen);
   };
